@@ -1,74 +1,85 @@
 {
   "myorder": [
     {
+      "id": 0,
+      "isHeader": true,
+      "imgLeft": "imgOrder.png",
+      "headerTitle": "My Order",
+      "textLeft":"View All"
+    },
+    {
       "id": 1,
       "order_name": "Unpaid",
       "order_value": "1"
-
     },
     {
       "id": 2,
       "order_name": "To be shipped",
-
-      "order_value":"2"
+      "order_value": "5"
     },
     {
       "id": 3,
       "order_name": "Shipped",
-      "order_value":"3 "
-    },{
+      "order_value": "3 "
+    },
+    {
       "id": 4,
       "order_name": "In dispute",
-      "order_value":"0 "
+      "order_value": "0"
     }
-
   ],
   "profilesettings": [
     {
+      "id": 0,
+      "isHeader": true,
+      "imgLeft": "imgProfile.png",
+      "headerTitle": "Profile Settings",
+      "textLeft":"Edit"
+    },
+    {
       "id": 1,
-      "order_name": "Unpaid",
-      "order_value": "1"
-
+      "profile_data": "fullname",
+      "profile_desc": "andrew R.Whitesides"
     },
     {
       "id": 2,
-      "order_name": "To be shipped",
-
-      "order_value":"2"
+      "profile_data": "Email",
+      "profile_desc": "andrew@gmail.com"
     },
     {
       "id": 3,
-      "order_name": "Shipped",
-      "order_value":"3 "
-    },{
+      "profile_data": "Gender",
+      "profile_desc": "male "
+    },
+    {
       "id": 4,
-      "order_name": "In dispute",
-      "order_value":"0 "
+      "profile_data": "Birth Date",
+      "profile_desc": "1993-13-31 "
     }
-
   ],
   "accountsettings": [
     {
+      "id": 0,
+      "isHeader": true,
+      "imgLeft": "imgAccount.png",
+      "headerTitle": "Account Settings",
+      "textLeft":""
+    },
+    {
       "id": 1,
-      "order_name": "Unpaid",
-      "order_value": "1"
+      "account_details": "Shipping address"
 
     },
     {
       "id": 2,
-      "order_name": "To be shipped",
-
-      "order_value":"2"
+      "account_details": "Languages"
     },
     {
       "id": 3,
-      "order_name": "Shipped",
-      "order_value":"3 "
-    },{
+      "account_details": "English"
+    },
+    {
       "id": 4,
-      "order_name": "In dispute",
-      "order_value":"0 "
+      "account_details": "Help & Support"
     }
-
-  ]
-}
+  ]}

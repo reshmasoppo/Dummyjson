@@ -7,31 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cardview"
-        android:layout_width="390dp"
-        android:layout_height="193dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:cardElevation="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998">
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycleview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </com.google.android.material.card.MaterialCardView>
 
 
 
-    <com.google.android.material.card.MaterialCardView
+
+   <!-- <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardview1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -51,5 +37,5 @@
             android:id="@+id/recycleview1"
             android:layout_width="match_parent"
             android:layout_height="180dp" />
-    </com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>!-->
 </androidx.constraintlayout.widget.ConstraintLayout>
