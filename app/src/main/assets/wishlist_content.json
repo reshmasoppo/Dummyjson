@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "wishlist_name": "Reshma",
+      "wishlist_description": "kotayam"
+
+    },
+    {
+      "id": 2,
+      "wishlist_name": "veena",
+
+      "wishlist_description":"pala"
+    },
+    {
+      "id": 3,
+      "wishlist_name": "meena",
+      "wishlist_description":"mumbai "
+    }
+
+  ]
+}

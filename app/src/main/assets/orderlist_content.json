@@ -1,0 +1,74 @@
+{
+  "myorder": [
+    {
+      "id": 1,
+      "order_name": "Unpaid",
+      "order_value": "1"
+
+    },
+    {
+      "id": 2,
+      "order_name": "To be shipped",
+
+      "order_value":"2"
+    },
+    {
+      "id": 3,
+      "order_name": "Shipped",
+      "order_value":"3 "
+    },{
+      "id": 4,
+      "order_name": "In dispute",
+      "order_value":"0 "
+    }
+
+  ],
+  "profilesettings": [
+    {
+      "id": 1,
+      "order_name": "Unpaid",
+      "order_value": "1"
+
+    },
+    {
+      "id": 2,
+      "order_name": "To be shipped",
+
+      "order_value":"2"
+    },
+    {
+      "id": 3,
+      "order_name": "Shipped",
+      "order_value":"3 "
+    },{
+      "id": 4,
+      "order_name": "In dispute",
+      "order_value":"0 "
+    }
+
+  ],
+  "accountsettings": [
+    {
+      "id": 1,
+      "order_name": "Unpaid",
+      "order_value": "1"
+
+    },
+    {
+      "id": 2,
+      "order_name": "To be shipped",
+
+      "order_value":"2"
+    },
+    {
+      "id": 3,
+      "order_name": "Shipped",
+      "order_value":"3 "
+    },{
+      "id": 4,
+      "order_name": "In dispute",
+      "order_value":"0 "
+    }
+
+  ]
+}
