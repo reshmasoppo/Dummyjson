@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     List<Content> productList;
-
     public final static String JSON_FILE_CONTENT = "orderlist_content.json";
 
 
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //getting the recyclerview from xml
-        recyclerView = (RecyclerView) findViewById(R.id.recycleview);
+        recyclerView =  findViewById(R.id.recycleview);
 
         Response myResponse = getjsonContent();
         recyclerView.setHasFixedSize(true);
@@ -40,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
         ProductAdapter adapter = new ProductAdapter(this, myResponse);
         recyclerView.setAdapter(adapter);
-
     }
 
     public Response getjsonContent() {
@@ -50,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         Response content = gson.fromJson(jsonString, Response.class);
         return content;
     }
-
 
     // To fetch values from json file for all
     private String getAssetsJSON(String filename) {
