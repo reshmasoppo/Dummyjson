@@ -104,7 +104,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ContentV
 
         } else if (position == 2) {
             List<String> AccountList = new ArrayList<>();
-
             holder.textheader.setText(String.valueOf(accountsettingsItemCurrentList.get(0).getHeaderTitle()));
             holder.textheader2.setText(String.valueOf(accountsettingsItemCurrentList.get(0).getTextLeft()));
 
